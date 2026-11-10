@@ -1,0 +1,10 @@
+request_type,requests,districts,best_district,best_rate_pct,worst_district,worst_rate_pct,spread_pts,median_days_ratio,chi2_p,cramers_v
+Bulky Items,184029,15,CD 07,94.6,CD 15,89.9,4.7,1.57,6.617048360941745e-63,0.043
+Graffiti Removal,74035,15,CD 07,99.5,CD 01,84.7,14.8,300.13,0.0,0.164
+Metal/Household Appliances,32904,15,CD 02,95.2,CD 11,90.4,4.9,1.7,2.213895163136245e-12,0.051
+Illegal Dumping Pickup,31986,15,CD 02,90.4,CD 03,77.1,13.3,4.01,4.902113772448179e-56,0.097
+Homeless Encampment,25075,15,CD 07,42.6,CD 01,7.8,34.8,67.4,3.91825021233673e-252,0.221
+Electronic Waste,10026,15,CD 06,96.2,CD 11,89.6,6.7,2.44,0.00022239135896209218,0.063
+Dead Animal Removal,9209,15,CD 01,100.0,CD 02,99.6,0.4,3.37,0.8262158507993964,0.031
+Multiple Streetlight Issue,5984,15,CD 11,23.0,CD 13,0.8,22.2,5.24,2.537295740102457e-43,0.201
+Single Streetlight Issue,4950,15,CD 11,7.7,CD 06,0.0,7.7,3.94,4.377766415911589e-11,0.126

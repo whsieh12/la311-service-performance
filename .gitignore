@@ -1,0 +1,12 @@
+# Raw and intermediate data stay out of Git (provenance is recorded in data/README.md)
+data/raw/
+data/interim/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
