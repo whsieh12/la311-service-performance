@@ -2,7 +2,7 @@
 
 **Question:** which kinds of 311 requests does the City of Los Angeles take longest to complete, and where should operations focus first?
 
-**Status:** SQL cleaning, KPI layer and district analysis are done. The Tableau dashboard is in progress.
+**Status:** complete. **[Interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/william.hsieh/viz/LA311ServicePerformance/LA311ServicePerformanceQ32024)**
 
 - **Data:** MyLA311 service requests created 2024-07-01 to 2024-09-30 (397,043 rows), City of Los Angeles open data, snapshot downloaded 2026-10-13. Source, download date and checksum are in [data/README.md](data/README.md). Raw data is not redistributed.
 - **Stack:** PostgreSQL (cleaning, KPI views), Python with pandas and SciPy (district analysis), Tableau Public (dashboard).
@@ -70,7 +70,7 @@ Cancelled requests (16,521) are excluded from closure KPIs; 768 requests with no
 - `python/` district analysis and CSV export
 - `exports/` CSVs produced for the dashboard
 - `docs/` validation expectations and KPI expectations
-- `dashboard/` Tableau workbook and screenshots (in progress)
+- Dashboard: published on Tableau Public (link at the top of this README)
 
 To reproduce: install PostgreSQL, download the dataset (see [data/README.md](data/README.md)), run the SQL scripts in order with `psql`, then run the Python script.
 
